@@ -1,54 +1,56 @@
 <p align="center"><img src="assets/banner.svg" alt="Mohandes AI" width="100%"></p>
 
-<p align="center"><b>Applied AI for technical teams in MENA — starting with water treatment</b></p>
+<p align="center"><b>Applied AI for technical teams in MENA, starting with water treatment</b></p>
 
 <p align="center" dir="rtl" lang="ar">ذكاء اصطناعي تطبيقي للفرق الفنية في المنطقة العربية، بدءًا من معالجة المياه</p>
 
 <p align="center"><b>Status:</b> Live &nbsp;·&nbsp; <b>Built by</b> <a href="https://github.com/Mohanad1st">Mohannad Hesham</a></p>
 
-> Case study only: the source is private because it runs a live product. Walkthrough on request.
+> This is a case study. The source is private because it runs a live product.
 
-## The problem
+## Why we built it
 
-Engineers and technicians at water treatment plants need fast, reliable maintenance answers, but verified technical documentation in Arabic is hard to reach, and every hour of troubleshooting costs the plant. Mohandes AI is the product home for Dr. Water, an assistant for plant maintenance, with access granted per person rather than open to anyone. (Dr. Water OS, the plant operations platform, is a separate product with its own case study.)
+Engineers and technicians at water treatment plants need fast, reliable maintenance answers, but verified technical documentation in Arabic is hard to reach, and troubleshooting delays cost plants money. Mohandes AI is the home of Dr. Water, an assistant for plant maintenance. Access is granted per person, not open to anyone.
 
 ## What it does
 
-- A bilingual product site with full right-to-left switching
-- The Dr. Water assistant, with chat history per session
-- Access to the assistant by request, not open sign-up
-- Star ratings on answers, reviewed by the team
-- An admin back office for access requests, users and analytics
+- A bilingual product site with full right-to-left switching.
+- The Dr. Water assistant, with chat history per session.
+- Access to the assistant by request, not open sign-up.
+- Star ratings on answers, which the team can review.
+- An admin back office for access requests, users, analytics and chat review.
 
-## See it
+## How it works
 
 **[Visit the Mohandes AI site](https://mohandes-ai.com)**
-
-How the work flows:
 
 ```mermaid
 flowchart TD
   accTitle: How access to Dr. Water works
-  accDescr: A person requests access, the team approves, the person asks questions, rates answers, and the team reviews the ratings.
+  accDescr: A person requests access, the team approves, the person asks questions and rates answers, and the team can review the ratings and chats.
   A[Request access] --> B{Team approves}
   B --> C[Ask Dr. Water]
   C --> D[Rate the answer]
-  D --> E[Team reviews ratings]
+  D --> E[Team reviews]
 ```
 
-## Built with
+## What it's built on
 
 React · TypeScript · Tailwind CSS · PostgreSQL with auth and serverless functions · transactional email
 
-## Built responsibly
+## Safeguards
 
-- Role-based back office with separate viewer, moderator and admin levels
-- The assistant is gated: people request access and are approved
-- A feedback loop on every answer, reviewed by staff
+- A role-based back office, with separate viewer, moderator and admin levels.
+- The assistant is gated: people request access and are approved.
+- Every answer can be rated, and staff can review the ratings.
 
-## What it deliberately doesn't do
+## What's not solved yet
 
-- The assistant does not replace a qualified engineer's sign-off on plant work.
+- Staff can read users' chats with the assistant, for quality review.
+
+## What it doesn't do
+
+- It's meant to support engineers, not replace their judgement.
 
 ## More from Mohandes AI
 
