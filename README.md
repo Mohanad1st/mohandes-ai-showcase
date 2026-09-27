@@ -4,11 +4,11 @@
 
 <p align="center" dir="rtl" lang="ar">ذكاء اصطناعي تطبيقي للصناعات التقنية في المنطقة العربية</p>
 
-> **This is a showcase, not the code.** The source is private because the system handles real operations for real people. Nothing here is needed to run it, and nothing here reveals how it is secured. A live walkthrough is available on request.
+> **This is a showcase, not the code.** The source is private because it runs a live product. This page shows what it does and how it was built, not the code itself. A live walkthrough is available on request.
 
 ## The problem
 
-Engineers and technicians at water treatment plants need fast, reliable maintenance answers, but verified technical documentation in Arabic is hard to reach, and every hour of troubleshooting costs the plant. Mohandes AI is the product home for Dr. Water, an assistant for plant maintenance, with access granted per person rather than open to anyone.
+Engineers and technicians at water treatment plants need fast, reliable maintenance answers, but verified technical documentation in Arabic is hard to reach, and every hour of troubleshooting costs the plant. Mohandes AI is the product home for Dr. Water, an assistant for plant maintenance, with access granted per person rather than open to anyone. (Dr. Water OS, the plant operations platform, is a separate product with its own case study.)
 
 ## What it does
 
